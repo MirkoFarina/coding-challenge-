@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("sfondo.jpg");
+  background-size: 100% auto;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.contenitore1{
+  width: 700px;
+  background-color: #0000009e;
+  border-radius: 2%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.contenitore2{
+  width: 600px;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+header{
+  text-align: center;
+  color: #00dd00;
+  font-size: 12px;
+}
+
+img{
+  width: 150px;
+}
+
+nav{
+  background-color: #00dd00;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+
+main{
+  color: white;
+}
+
+section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section > .Nome-Monopattino{
+  display: inline-block;
+  font-size: 18px;
+}
+
+.posizione-monopattino{
+  font-size: 14px;
+}
+
+.posizione-monopattino::before{
+  content: "\21A6 " ;
+}
+
+.statocarica1 div{
+  width: 250px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 3%;
+}
+
+.statocarica2 div{
+  width: 450px;
+  height: 30px;
+  background-color: green;
+  border-radius: 3%;
+}
+
+.statocarica3 div{
+  width: 150px;
+  height: 30px;
+  background-color: pink;
+  border-radius: 3%;
+}
